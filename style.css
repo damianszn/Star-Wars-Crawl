@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+
+div {
+    margin:auto;
+    width: 50%;
+    -webkit-transform: rotateX(50deg); 
+    transform: rotateX(50deg);
+    color:yellow;
+    font-size: 35px;
+}
+
+span{
+    color:blue;
+}
