@@ -1,17 +1,38 @@
 body {
     text-align: center;
     background-color: black;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-image: url(stars.png)
 }
 
-div {
+.crawl {
     margin:auto;
     width: 50%;
-    -webkit-transform: rotateX(50deg); 
-    transform: rotateX(50deg);
     color:yellow;
     font-size: 35px;
+    position: relative;
+    transform-origin: 50% 100%;
+    animation: crawl 60s linear;
 }
 
-span{
-    color:blue;
+.whole {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    perspective: 400px;
 }
+
+
+@keyframes crawl {
+    0% {
+      top: 0;
+      transform: rotateX(20deg) translateZ(0);
+    }
+    100% { 
+      top: -6000px;
+      transform: rotateX(20deg) translateZ(-2500px);
+    }
+  }
