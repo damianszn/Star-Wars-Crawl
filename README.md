@@ -3,7 +3,7 @@
 Here's my first take at recreating Star Wars intro. 
 It's still in progress, i focused on making the animation. I'll update it later with audio, probably a title and a logo.
 The exercise was given by Becode. 
-I made it with an html file, a css file and a picture.
+I made it with an **html** file, a **css** file and a picture.
 
 # See my work :
 
